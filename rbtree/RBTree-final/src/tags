@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS=-Wall -g$/;"	m
+RBTREE_BLACK	rbtree.h	/^typedef enum { RBTREE_RED, RBTREE_BLACK } color_t;$/;"	e	enum:__anon1
+RBTREE_RED	rbtree.h	/^typedef enum { RBTREE_RED, RBTREE_BLACK } color_t;$/;"	e	enum:__anon1
+_RBTREE_H_	rbtree.h	2;"	d
+color	rbtree.h	/^  color_t color;$/;"	m	struct:node_t
+color_t	rbtree.h	/^typedef enum { RBTREE_RED, RBTREE_BLACK } color_t;$/;"	t	typeref:enum:__anon1
+delete_one	rbtree.c	/^void delete_one(rbtree *t, node_t *cur)$/;"	f
+delete_rbtree	rbtree.c	/^void delete_rbtree(rbtree *t)$/;"	f
+in_order	rbtree.c	/^int in_order(const rbtree *t, node_t *cur, key_t *arr, size_t n, int index)$/;"	f
+key	rbtree.h	/^  key_t key;$/;"	m	struct:node_t
+key_t	rbtree.h	/^typedef int key_t;$/;"	t
+left	rbtree.h	/^  struct node_t *parent, *left, *right;$/;"	m	struct:node_t	typeref:struct:node_t::
+left_rotate	rbtree.c	/^void left_rotate(rbtree *t, node_t *x)$/;"	f
+main	driver.c	/^int main(int argc, char *argv[]) {$/;"	f
+main	main.c	/^int main(void){$/;"	f
+new_rbtree	rbtree.c	/^rbtree *new_rbtree(void)$/;"	f
+nil	rbtree.h	/^  node_t *nil;  \/\/ for sentinel$/;"	m	struct:__anon2
+node_t	rbtree.h	/^typedef struct node_t {$/;"	s
+node_t	rbtree.h	/^} node_t;$/;"	t	typeref:struct:node_t
+parent	rbtree.h	/^  struct node_t *parent, *left, *right;$/;"	m	struct:node_t	typeref:struct:node_t::node_t
+rb_transplant	rbtree.c	/^void rb_transplant(rbtree *t, node_t *u, node_t *v)$/;"	f
+rbtree	rbtree.h	/^} rbtree;$/;"	t	typeref:struct:__anon2
+rbtree_erase	rbtree.c	/^int rbtree_erase(rbtree *t, node_t *z)$/;"	f
+rbtree_erase_fixup	rbtree.c	/^void rbtree_erase_fixup(rbtree *t, node_t *x)$/;"	f
+rbtree_find	rbtree.c	/^node_t *rbtree_find(const rbtree *t, const key_t key)$/;"	f
+rbtree_insert	rbtree.c	/^node_t *rbtree_insert(rbtree *t, const key_t key)$/;"	f
+rbtree_insert_fixup	rbtree.c	/^node_t *rbtree_insert_fixup(rbtree *t, node_t *z)$/;"	f
+rbtree_max	rbtree.c	/^node_t *rbtree_max(const rbtree *t)$/;"	f
+rbtree_min	rbtree.c	/^node_t *rbtree_min(const rbtree *t)$/;"	f
+rbtree_to_array	rbtree.c	/^int rbtree_to_array(const rbtree *t, key_t *arr, const size_t n)$/;"	f
+right	rbtree.h	/^  struct node_t *parent, *left, *right;$/;"	m	struct:node_t	typeref:struct:node_t::
+right_rotate	rbtree.c	/^void right_rotate(rbtree *t, node_t *y)$/;"	f
+root	rbtree.h	/^  node_t *root;$/;"	m	struct:__anon2
+test_erase_root	main.c	/^void test_erase_root(const key_t key) {$/;"	f
+tree_minimum	rbtree.c	/^node_t *tree_minimum(rbtree *t, node_t *cur)$/;"	f

@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CFLAGS	Makefile	/^CFLAGS=-I ..\/src -Wall -g -DSENTINEL$/;"	m
+color_traverse	test-rbtree.c	/^static bool color_traverse(const node_t *p, const color_t parent_color,$/;"	f	file:
+comp	test-rbtree.c	/^static int comp(const void *p1, const void *p2) {$/;"	f	file:
+init_color_traverse	test-rbtree.c	/^static void init_color_traverse(void) {$/;"	f	file:
+insert_arr	test-rbtree.c	/^static void insert_arr(rbtree *t, const key_t *arr, const size_t n) {$/;"	f	file:
+main	test-rbtree.c	/^int main(void) {$/;"	f
+max_black_depth	test-rbtree.c	/^int max_black_depth = 0;$/;"	v
+search_traverse	test-rbtree.c	/^static bool search_traverse(const node_t *p, key_t *min, key_t *max,$/;"	f	file:
+test_color_constraint	test-rbtree.c	/^void test_color_constraint(const rbtree *t) {$/;"	f
+test_distinct_values	test-rbtree.c	/^void test_distinct_values() {$/;"	f
+test_duplicate_values	test-rbtree.c	/^void test_duplicate_values() {$/;"	f
+test_erase_root	test-rbtree.c	/^void test_erase_root(const key_t key) {$/;"	f
+test_find_erase	test-rbtree.c	/^void test_find_erase(rbtree *t, const key_t *arr, const size_t n) {$/;"	f
+test_find_erase_fixed	test-rbtree.c	/^void test_find_erase_fixed() {$/;"	f
+test_find_erase_rand	test-rbtree.c	/^void test_find_erase_rand(const size_t n, const unsigned int seed) {$/;"	f
+test_find_single	test-rbtree.c	/^void test_find_single(const key_t key, const key_t wrong_key) {$/;"	f
+test_init	test-rbtree.c	/^void test_init(void) {$/;"	f
+test_insert_single	test-rbtree.c	/^void test_insert_single(const key_t key) {$/;"	f
+test_minmax	test-rbtree.c	/^void test_minmax(key_t *arr, const size_t n) {$/;"	f
+test_minmax_suite	test-rbtree.c	/^void test_minmax_suite() {$/;"	f
+test_multi_instance	test-rbtree.c	/^void test_multi_instance() {$/;"	f
+test_rb_constraints	test-rbtree.c	/^void test_rb_constraints(const key_t arr[], const size_t n) {$/;"	f
+test_search_constraint	test-rbtree.c	/^void test_search_constraint(const rbtree *t) {$/;"	f
+test_to_array	test-rbtree.c	/^void test_to_array(rbtree *t, const key_t *arr, const size_t n) {$/;"	f
+test_to_array_suite	test-rbtree.c	/^void test_to_array_suite() {$/;"	f
+touch_nil	test-rbtree.c	/^bool touch_nil = false;$/;"	v
